@@ -16,5 +16,10 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ResultDisplay.FillResults()
+        }
     }
 }

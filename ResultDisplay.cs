@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using KvadratnaJednadzba;
 
 namespace Vsite.CSharp.KvadratnaJednadzba.Gui
 {
@@ -17,8 +18,20 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        public readonly QuadraticEquation quadraticEquation = new QuadraticEquation();
+
+        private void FillResults()
         {
+            quadraticEquation.A = (double)this.numericUpDownA.Value;
+            quadraticEquation.B = (double)this.numericUpDownB.Value;
+            quadraticEquation.C = (double)this.numericUpDownC.Value;
+
+
+            textBoxDiscriminant.Text = quadraticEquation.Discriminant.ToString();
+            textBoxRoot1.Text = quadraticEquation.Roots[0].ToString();
+            textBoxRoot2.Text = quadraticEquation.Roots[1].ToString();
+
+
 
         }
     }

@@ -89,5 +89,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KvadratnaJednadzba\KvadratnaJednadzba.csproj">
+      <Project>{a17579a1-e091-445c-adff-61101bca2f9a}</Project>
+      <Name>KvadratnaJednadzba</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

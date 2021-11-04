@@ -19,7 +19,12 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ResultDisplay.FillResults()
+            resultDisplay1.FillResults();
+        }
+
+        private void resultDisplay1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

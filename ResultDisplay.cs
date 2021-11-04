@@ -20,7 +20,7 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
 
         public readonly QuadraticEquation quadraticEquation = new QuadraticEquation();
 
-        private void FillResults()
+        public  void FillResults()
         {
             quadraticEquation.A = (double)this.numericUpDownA.Value;
             quadraticEquation.B = (double)this.numericUpDownB.Value;
@@ -33,6 +33,11 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
 
 
 
+        }
+
+        private void numericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            FillResults();
         }
     }
 }

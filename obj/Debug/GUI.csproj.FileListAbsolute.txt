@@ -9,3 +9,7 @@ C:\Users\MarinaL\source\repos\GUI\obj\Debug\Gui.exe
 C:\Users\MarinaL\source\repos\GUI\obj\Debug\Gui.pdb
 C:\Users\MarinaL\source\repos\GUI\obj\Debug\Vsite.CSharp.KvadratnaJednadzba.Gui.ResultDisplay.resources
 C:\Users\MarinaL\source\repos\GUI\obj\Debug\Vsite.CSharp.KvadratnaJednadzba.Gui.Form1.resources
+C:\Users\MarinaL\source\repos\GUI\bin\Debug\KvadratnaJednadzba.exe
+C:\Users\MarinaL\source\repos\GUI\bin\Debug\KvadratnaJednadzba.pdb
+C:\Users\MarinaL\source\repos\GUI\bin\Debug\KvadratnaJednadzba.exe.config
+C:\Users\MarinaL\source\repos\GUI\obj\Debug\GUI.csproj.CopyComplete
